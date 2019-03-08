@@ -22,7 +22,7 @@ configs.push(Object.assign({}, base, {
     chunkFilename: isdev ? '[id].js' : '[id]-[chunkhash].js',
     publicPath,
     library: '{{ name }}',
-    libraryTarget: 'commonjs'
+    libraryTarget: 'commonjs2'
   },
   resolve: {
     alias: config.alias,
